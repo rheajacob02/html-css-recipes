@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Droid+Sans+Mono"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav-bar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <span class="nav-logo simply">Simply</span
+            ><span class="nav-logo recipes">Recipes</span>
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="single-recipe">
+        <section class="single-recipe-about">
+          <img
+            src="/assets/single-recipe.jpg"
+            alt="pancakes"
+            class="img single-recipe-img"
+          />
+          <article>
+            <h3>Banana pancakes</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+              laboriosam ab soluta culpa maiores minus deleniti. Neque
+              voluptatibus explicabo necessitatibus cupiditate esse, laboriosam
+              velit! Eius necessitatibus ratione, rerum odio voluptates
+              consequatur amet rem possimus consequuntur odit molestias
+              repellendus beatae tenetur blanditiis iste praesentium reiciendis
+              provident architecto repellat asperiores similique aut!
+            </p>
+            <div class="single-recipe-info">
+              <!-- single info -->
+              <article class="info">
+                <i class="fas fa-clock"></i>
+                <h5>Prep Time</h5>
+                <p>30 mins</p>
+              </article>
+              <!-- end of single info -->
+              <!-- single info -->
+              <article class="info">
+                <i class="far fa-clock"></i>
+                <h5>cook Time</h5>
+                <p>15 mins</p>
+              </article>
+              <!-- end of single info -->
+              <!-- single info -->
+              <article class="info">
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+              <!-- end of single info -->
+            </div>
+            <div class="single-recipe-tags">
+              Tags:
+              <a href="tag-template.html">dessert</a>
+              <a href="tag-template.html">chocolate</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">fruits</a>
+            </div>
+          </article>
+        </section>
+        <section class="single-recipe-content">
+          <!-- single recipe instructions -->
+          <div class="single-recipe-instructions">
+            <h4>instructions</h4>
+            <!-- single step -->
+            <div class="single-step">
+              <header>
+                <h5>step 1</h5>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, animi.</p>
+            </div>
+            <!-- end of single step -->
+            <!-- single step -->
+            <div class="single-step">
+              <header>
+                <h5>step 2</h5>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nemo veritatis obcaecati fugit veniam soluta maxime nisi, deleniti voluptate esse.</p>
+            </div>
+            <!-- end of single step -->
+            <!-- single step -->
+            <div class="single-step">
+              <header>
+                <h5>step 3</h5>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur optio accusantium debitis illum corrupti esse.</p>
+            </div>
+            <!-- end of single step -->
+          </div>
+          <!-- end of single recipe instructions -->
+          <!-- single recipe materials -->
+          <div class="single-recipe-materials">
+            <article class="single-recipe-ingredients">
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 1/2 cup of dry pancake mix</p>
+              <p class="single-ingredient">1/2 cup of flax seed meal</p>
+              <p class="single-ingredient">1 cup skim milk</p>
+            </article>
+            <article class="single-recipe-tools">
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </article>
+          </div>
+          <!-- end of single recipe materials -->
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="page-footer-logo">Simply Recipes</span> Built By
+        <a href="#">Rhea Jacob</a>
+      </p>
+    </footer>
+    <!-- end of footer -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
